@@ -1,0 +1,81 @@
+*{box-sizing: border-box;}
+main{width: 1060px;
+    height: 625px;
+    border-radius: 20px;
+    padding:75px 70px 70px 70px;
+    margin: 20px auto;
+    /* margin: auto; */
+    background-image: url(/HTML/EJERCICIOS/HORARIO/5501757.jpg);
+    background-size: cover;    
+}
+
+@font-face {
+        font-family: 'now';
+        src: url(/HTML/EJERCICIOS/HORARIO/now.otf);
+    }
+
+    @font-face {
+        font-family: 'bobby-jones-soft-regular';
+        src: url(/HTML/EJERCICIOS/HORARIO/bobby-jones-soft-regular.otf);
+    }
+h1{color: #fdfdfe;
+   font-family: "now";
+   font-weight: lighter;
+   font-size: 1.3em;
+   margin-left: 18px;
+   font-weight: bold;
+}
+
+span{border: 1px solid black;
+    padding: 5px;
+    width: 190px;
+    height: 30px;
+    background-color:#fdfdfe;
+    font-family: "now";
+
+}
+
+.span1{position: absolute;
+    top: 105px;
+    left: 740px;}
+    
+.span2{position: absolute;
+        top: 105px;
+        left: 938px;}
+
+
+
+.tabla{border-collapse: separate;
+    border-spacing: 18px;}
+
+.encabezado th{width: 150px;
+  height: 40px;
+  padding: 5px 10px;
+  background-color: #876cbf;  
+  font-family: "bobby-jones-soft-regular";
+  color: #fdfdfe;
+  box-shadow: 8px 8px #2f2d59;
+  font-weight: lighter;
+  font-size: 1.2rem;
+
+}
+
+.cuerpo th{width: 100px;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: #b1a8c7;
+    font-family: "bobby-jones-soft-regular";
+    color: #fdfdfe;
+    font-weight: lighter;
+    box-shadow: 8px 8px #2f2d59;
+    font-size: 1.2rem;
+
+}
+
+.cuerpo td{background-color:#fdfdfe;
+}
+
+
+
+
+
